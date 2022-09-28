@@ -12,7 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
 	
-	WebDriver driver;
+	public static WebDriver driver;
 	
 	@BeforeMethod
 	public void setUp()
@@ -29,7 +29,7 @@ public class TestBase {
 	@AfterMethod
 	public void tearDown()
 	{
-		driver.quit();
+		//driver.quit();
 	}
 
 }
