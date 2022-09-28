@@ -12,7 +12,7 @@ public class LoginPageTest extends TestBase{
 	{
 		LoginPage login=new LoginPage();
 		login.clickOnApplicantLogin();
-		Thread.sleep(4000);
+		Thread.sleep(10000);
 		login.clickOnnewApplicant();
 	}
 
